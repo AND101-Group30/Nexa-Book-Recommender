@@ -48,7 +48,7 @@
 1. Developer's Toolkit
     * Allow students and developers an all-in-one developer platform, which provide functionalities like code editors, version control, debuggers, documentation, and integrations with libraries and APIs.
 2. ChatGPT-powered Book Recommendations App
-    * Using ChatGBT, our app suggests books tailored to user preferences, simplifies library organization, provides e-book reading functionality, and fosters community-driven book recommendations. From regular readers engaging in conversation to find their next read, to parents seeking children's books, this app offers a tailored book discovery experience.
+    * Using ChatGPT, our app suggests books tailored to user preferences, simplifies library organization, provides e-book reading functionality, and fosters community-driven book recommendations. From regular readers engaging in conversation to find their next read, to parents seeking children's books, this app offers a tailored book discovery experience.
 3. Coding Challenges and Interview Preparation
     * The app provides coding challenges, real-time coding environments, interview question sets, and comprehensive resources for effective technical interview preparation.
 4. Social Media Post Caption Generator
