@@ -6,7 +6,7 @@ Submitted by:
 - **Hung-Chieh Wu**
 - **Gerardo Perez**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Summary
 
@@ -19,7 +19,7 @@ If we had to describe this milestone in three (3) emojis, they would be: **ðŸ˜€ð
 The following REQUIRED features are completed:
 
 - [x] Creation of GitHub Organization and Group Project Repo
-- [ ] Updated Course Portal group info with Group Name and App Description
+- [x] Updated Course Portal group info with Group Name and App Description
 
 The following REQUIRED files are included:
 
