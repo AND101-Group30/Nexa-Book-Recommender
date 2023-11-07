@@ -6,13 +6,13 @@ Submitted by:
 - **Hung-Chieh Wu**
 - **Gerardo Perez**
 
-Time spent: **12** hours spent in total
+Time spent: **X** hours spent in total
 
 ## Summary
 
-This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **recommends books using chatGBT's api**
+This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **give book recommendations based on chatgpt**
 
-If we had to describe this milestone in three (3) emojis, they would be: **📖🔍💻**
+If we had to describe this milestone in three (3) emojis, they would be: **😀👍🤖**
 
 ## Milestone Requirements
 
