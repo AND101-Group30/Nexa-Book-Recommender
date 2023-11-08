@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.chatgpt_book_app"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.chatgpt_book_app"
         minSdk = 32
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -33,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildToolsVersion = "30.0.3"
 }
 
 dependencies {
