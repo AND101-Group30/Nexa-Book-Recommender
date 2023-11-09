@@ -17,7 +17,7 @@
             android:id="@+id/recommendation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:title="RecommendationItem"
+            android:title="Recommendation"
             android:icon="@drawable/baseline_menu_book_24"/>
         <item
             android:id="@+id/questions"
@@ -25,10 +25,18 @@
             android:layout_height="wrap_content"
             android:title="Questions"
             android:icon="@drawable/baseline_question_mark_24"/>
-
+        <item android:title="" />
+        <item android:title="" />
+        <item android:title="" />
+        <item android:title="" />
+        <item android:title="" />
+        <item android:title="" />
+        <item android:title="" />
+        <item android:title="" />
     </group>
     <item
-        android:title="">
+        android:title=""
+        android:checkableBehavior="single">
         <menu>
             <item
                 android:id="@+id/settings"
