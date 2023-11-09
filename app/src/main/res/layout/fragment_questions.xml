@@ -4,17 +4,193 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primaryColor"
     tools:context=".QuestionsFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Questions"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <Spinner
+        android:id="@+id/lengthDropdown"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="72dp"
+        android:entries="@array/length"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toEndOf="@+id/lengthQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/paceDropdown" />
+
+    <Spinner
+        android:id="@+id/ageDropdown"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toEndOf="@+id/ageQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/lengthDropdown"
+        android:entries="@array/ranges"/>
+
+    <Spinner
+        android:id="@+id/themeDropdown"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="68dp"
+        android:entries="@array/themes"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/themeQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/ageDropdown" />
+
+    <Spinner
+        android:id="@+id/paceDropdown"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="56dp"
+        android:entries="@array/pace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/avoidDropdown" />
+
+    <Spinner
+        android:id="@+id/avoidDropdown"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
+        android:entries="@array/pace"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/avoidQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/authorDropdown" />
+
+    <TextView
+        android:id="@+id/genreQuestion"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:text="What genres do you usually like?"
+        android:textColor="@color/textColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        android:entries="@array/genresAvoid"/>
 
+    <TextView
+        android:id="@+id/authorQuestion"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="28dp"
+        android:text="What are your favorite authors?,  if any."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genreQuestion" />
+
+    <TextView
+        android:id="@+id/avoidQuestion"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/textColor"
+        android:text="Are there any genres you prefer to avoid?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authorQuestion" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Do you prefer fast-paced page-turners or more contemplative, slow-burn stories?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avoidQuestion" />
+
+    <TextView
+        android:id="@+id/lengthQuestion"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="28dp"
+        android:text="Do you prefer shorter, quicker reads or longer, more immersive novels?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/ageQuestion"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Do you prefer books for a certain age range or demographic?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lengthQuestion" />
+
+    <TextView
+        android:id="@+id/themeQuestion"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/textColor"
+        android:text="Are there specific themes or topics you're interested in exploring within books (e.g., love, friendship, history, science fiction, mystery)?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageQuestion" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="84dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/themeQuestion"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <Spinner
+        android:id="@+id/genreDropdown"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="96dp"
+        android:entries="@array/genres"
+        android:textColor="@color/textColor"
+        app:layout_constraintStart_toEndOf="@+id/genreQuestion"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/authorDropdown"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:entries="@array/authors"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/authorQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/genreDropdown" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/headerColor"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Questions"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
