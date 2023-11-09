@@ -2,6 +2,86 @@
     <string name="app_name">ChatGPT-Book-App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+<<<<<<< Updated upstream
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
+=======
+
+    <string-array name="genres">
+        <item>Select</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Horror</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Sci-Fi</item>
+        <item>Thriller</item>
+    </string-array>
+
+    <string-array name="authors">
+        <item>William Shakespeare</item>
+        <item>Jane Austen</item>
+        <item>Charles Dickens</item>
+        <item>Ernest Hemingway</item>
+        <item>Virginia Woolf</item>
+        <item>George Orwell</item>
+        <item>Mark Twain</item>
+        <item>Fyodor Dostoevsky</item>
+        <item>James Joyce</item>
+        <item>Leo Tolstoy</item>
+    </string-array>
+
+    <string-array name="genresAvoid">
+        <item>Select</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Horror</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Sci-Fi</item>
+        <item>Thriller</item>
+    </string-array>
+
+    <string-array name="pace">
+        <item>Fast Paced</item>
+        <item>Slow Burn</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>Quick</item>
+        <item>Immersive</item>
+    </string-array>
+
+    <string-array name="ranges">
+        <item>0 – 2 years</item>
+        <item>3 – 5 years</item>
+        <item>6 – 8 years</item>
+        <item>9 – 12 years</item>
+        <item>Teen &amp; Young Adult</item>
+        <item>Adult</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>Adventure</item>
+        <item>Coming of Age</item>
+        <item>Crime &amp; Mystery</item>
+        <item>Fantasy</item>
+        <item>Historical</item>
+        <item>Horror</item>
+        <item>Humor</item>
+        <item>Love &amp; Romance</item>
+        <item>Science Fiction</item>
+        <item>Self-help</item>
+        <item>Thriller &amp; Suspense</item>
+        <item>Biography &amp; Memoir</item>
+    </string-array>
+
+
+>>>>>>> Stashed changes
 </resources>
