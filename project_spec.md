@@ -9,7 +9,7 @@
 
 ## App Overview
 
-### Description 
+### Description
 
 Using ChatGPT, our app suggests books tailored to user preferences, simplifies library organization, provides e-book reading functionality, and fosters community-driven book recommendations. From regular readers engaging in conversation to find their next read, to parents seeking children's books, this app offers a tailored book discovery experience.
 
@@ -31,28 +31,30 @@ Using ChatGPT, our app suggests books tailored to user preferences, simplifies l
 
 Required Features:
 
-- User can get list of book recommendations by fill in the forms (Genre Preferences, Reading Level...)
-- User can view the book title, author, public year.. etc
+- [x] User can get list of book recommendations by fill in the forms (Genre Preferences, Reading Level...)
+- [x] User can view the book title, author, public year.. etc
 
 Stretch Features:
 
-- User can get more personalized book recommendations after rounds of conversation with ChatGPT
-- User can search the books on the Internet by clicking the itemView
+- [] User can get more personalized book recommendations after rounds of conversation with ChatGPT
+- [] User can search the books on the Internet by clicking the itemView
 
 ### 2. Chosen API(s)
 
 - **ChatGPT API**
-    - User can get list of book recommendations
-    - User can get more personalized book recommendations
+
+  - User can get list of book recommendations
+  - User can get more personalized book recommendations
 
 - **Open Library API**
-    - User can view the book title, author, public year.. etc
+  - User can view the book title, author, public year.. etc
 
 ### 3. User Interaction
 
 Required Feature
 
 - **User can fill the form**
+
   - => Get a list of book recommendations
 
 - **User can swipe a list of recommended books**
@@ -62,22 +64,41 @@ Required Feature
 
 <img src="https://owl-go.s3.amazonaws.com/wireframe.png" width="300"/>
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FeqvwuiNs05pmY1YHzKqGXx%2FUntitled%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DyYnpsCXzBPRaIT8s-1" allowfullscreen></iframe>
-
-
 ### [BONUS] Digital Wireframes & Mockups
 
-https://www.figma.com/file/eqvwuiNs05pmY1YHzKqGXx/Untitled?type=design&node-id=0-1&mode=design
-
+[Figma Wireframe](https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FeqvwuiNs05pmY1YHzKqGXx%2FUntitled%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DyYnpsCXzBPRaIT8s-1)
 
 ### [BONUS] Interactive Prototype
 
 ## Build Notes
 
-Here's a place for any other notes on the app, it's creation 
-process, or what you learned this unit!  
+Here's a place for any other notes on the app, it's creation
+process, or what you learned this unit!
 
 For Milestone 2, include **2+ Videos/GIFs** of the build process here!
+
+### Navigation Drawer (Michael)
+
+We first started on creating the foundation of our app. We debated on using a nav drawer or bottom nav bar to move around in our app.
+We decided that a drawer would be a cleaner option.
+
+<img src="img/Scene-1.gif" width=300 alt="scene 1">
+
+Michael Created the Nav Drawer, meanwhile Gerardo created the questions fragment/page and Hung-Chieh started working on the API section of the code.
+
+### Questions (Gerardo)
+
+Gerardo started creating the questions page that ChatGBT will use to improve the recommendation that we give to the user.
+
+<img src="img/Scene-2.gif" width=300 alt="scene 2">
+
+Using spinners will allow us to have control over the users answers, that way they cannot input anything that will make ChatGBT break.
+
+### API/Current (Hung-Chieh)
+
+Hung-Chieh started his own branch and connecting ChatGBT to our app. After finishing he started on the recommendation page and integrated ChatGBT.
+
+<img src="img/Scene-3.gif" width=300 alt="scene 3">
 
 ## License
 
