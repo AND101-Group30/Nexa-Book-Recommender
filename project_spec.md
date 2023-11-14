@@ -88,15 +88,15 @@ Michael Created the Nav Drawer, meanwhile Gerardo created the questions fragment
 
 ### Questions (Gerardo)
 
-Gerardo started creating the questions page that ChatGBT will use to improve the recommendation that we give to the user.
+Gerardo started creating the questions page that ChatGPT will use to improve the recommendation that we give to the user.
 
 <img src="img/Scene-2.gif" width=300 alt="scene 2">
 
-Using spinners will allow us to have control over the users answers, that way they cannot input anything that will make ChatGBT break.
+Using spinners will allow us to have control over the users answers, that way they cannot input anything that will make ChatGPT break.
 
 ### API/Current (Hung-Chieh)
 
-Hung-Chieh started his own branch and connecting ChatGBT to our app. After finishing he started on the recommendation page and integrated ChatGBT.
+Hung-Chieh started his own branch and connecting ChatGPT to our app. After finishing he started on the recommendation page and integrated ChatGPT.
 
 <img src="img/Scene-3.gif" width=300 alt="scene 3">
 
